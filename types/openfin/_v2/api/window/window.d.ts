@@ -3,7 +3,7 @@ import { Identity } from '../../identity';
 import { Application } from '../application/application';
 import Transport from '../../transport/transport';
 import { WindowEvents } from '../events/window';
-import { AnchorType, Transition, TransitionOptions, Bounds } from '../../shapes';
+import { AnchorType, Bounds, Transition, TransitionOptions } from '../../shapes';
 import { WindowOption } from './windowOption';
 import { EntityType } from '../frame/frame';
 import { ExternalWindow } from '../external-window/external-window';
@@ -795,8 +795,8 @@ export declare class _Window extends WebContents<WindowEvents> {
     updateOptions(options: any): Promise<void>;
     /**
      * Provides credentials to authentication requests
-     * @param { string } userName userName to provide to the authentication challange
-     * @param { string } password password to provide to the authentication challange
+     * @param { string } userName userName to provide to the authentication challenge
+     * @param { string } password password to provide to the authentication challenge
      * @return {Promise.<void>}
      * @tutorial Window.authenticate
      */
