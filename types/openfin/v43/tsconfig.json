@@ -13,6 +13,11 @@
         "typeRoots": [
             "../../"
         ],
+        "paths": {
+            "openfin": [
+                "openfin/v43"
+            ]
+        },
         "types": [],
         "noEmit": true,
         "forceConsistentCasingInFileNames": true
